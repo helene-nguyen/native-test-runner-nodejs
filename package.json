@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "test-runner-node",
+  "version": "1.0.0",
+  "description": "Native test runner thanks E. Wendel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/database.test.js | tap-spec"
+  },
+  "keywords": [
+    "test",
+    "node"
+  ],
+  "author": "yumicode",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^5.0.0"
+  }
+}
